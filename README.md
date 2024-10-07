@@ -24,19 +24,12 @@ Install pytorch_geometric following instruction at https://github.com/rusty1s/py
 ```
 ## Dataset
 
-The HLM, RLm, and External datasets were adopted from [1,2].
+The HLM, RLM, and External datasets were adopted from [1,2].
 
-## Training the model
+## Run the model
 
 To train the model, you will use the `train.py` script. This script accepts several command-line arguments to customize the training process.
 
-## Training command:
-
-Run the following command to start the training process:
-
-``` bash
-$ python train_singleGPU.py --known_class 'True' --checkpoint_dir 'checkpoint' --device 'cuda:0'
-```
 ## Reference
 
 [1] Li, L. et al. (2022). In Silico Prediction of Human and Rat Liver Microsomal Stability via Machine Learning Methods. Chemical Research in Toxicology 35(9), 1614–1624.<br>
