@@ -7,17 +7,20 @@ HyperPhS: A pharmacophore-guided multi-view representation for metabolic stabili
 Metabolic stability is crucial in the early stages of drug discovery and development. Pharmacophores, the functional groups within drug molecules, directly bind to receptors or biological macromolecules to produce biological effects, thereby significantly influencing metabolic stability. Accurately predicting this stability can streamline drug candidate screening and optimize lead compounds. Given the high costs of wet lab experiments, in silico prediction offers a valuable yet underdeveloped alternative. Furthermore, determining metabolic stability using a pharmacophore-guided approach remains a significant challenge.
 
 To address these issues, we develop a novel pharmacophore-guided hypergraph-based approach for metabolic stability prediction named HyperPhS.
-![image](model.pdf)
+![image](model.png)
 
 ## Setup
-HyperPhS requires anaconda with Python 3.7 or later, cudatoolkit=10.2.
-
-Suggest to install RetroCaptioner in a virtual environment to prevent conflicting dependencies.
+Please install HyperPhS in a virtual environment to ensure it has conflicting dependencies.
 ```
-conda create -n RetroCaptioner python==3.7
-conda activate RetroCaptioner
-conda install --yes --file requirements.txt
-CUDA-enabled device for GPU training (optional)
+Python == 3.8
+PyTorch == 2.0
+scikit-learn == 1.2.2
+pandas == 2.0.2
+numpy == 1.23.5
+RDKit == 2023.03.1
+network == 2.8.4
+PyG == 2.3.1
+Install pytorch_geometric following instruction at https://github.com/rusty1s/pytorch_geometric
 ```
 
 ## Training the model
