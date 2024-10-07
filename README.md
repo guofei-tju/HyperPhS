@@ -29,7 +29,7 @@ The HLM, RLM, and External datasets were adopted from [1,2].
 ## Run the model
 Firstly, to process the data, you will use the `python create_data.py` script.
 
-Secondly, to train the model, you will use the `train.py` script. This script accepts several command-line arguments to customize the training process.
+Secondly, to train the model, you will use the `python training.py` script. This script accepts several command-line arguments to customize the training process.
 
 ## Reference
 
