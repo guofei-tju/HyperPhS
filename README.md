@@ -22,6 +22,9 @@ network == 2.8.4
 PyG == 2.3.1
 Install pytorch_geometric following instruction at https://github.com/rusty1s/pytorch_geometric
 ```
+## Dataset
+
+The HLM, RLm, and External datasets were adopted from [1,2].
 
 ## Training the model
 
@@ -34,3 +37,7 @@ Run the following command to start the training process:
 ``` bash
 $ python train_singleGPU.py --known_class 'True' --checkpoint_dir 'checkpoint' --device 'cuda:0'
 ```
+## Reference
+
+[1] Li, L. et al. (2022). In Silico Prediction of Human and Rat Liver Microsomal Stability via Machine Learning Methods. Chemical Research in Toxicology 35(9), 1614–1624.
+[2] Mendez, David, et al. (2019). ChEMBL: towards direct deposition of bioassay data. Nucleic acids research 47.D1, D930-D940.
