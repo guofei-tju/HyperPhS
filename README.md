@@ -7,7 +7,7 @@ HyperPhS: A pharmacophore-guided multi-view representation for metabolic stabili
 Metabolic stability is crucial in the early stages of drug discovery and development. Pharmacophores, the functional groups within drug molecules, directly bind to receptors or biological macromolecules to produce biological effects, thereby significantly influencing metabolic stability. Accurately predicting this stability can streamline drug candidate screening and optimize lead compounds. Given the high costs of wet lab experiments, in silico prediction offers a valuable yet underdeveloped alternative. Furthermore, determining metabolic stability using a pharmacophore-guided approach remains a significant challenge.
 
 To address these issues, we develop a novel pharmacophore-guided hypergraph-based approach for metabolic stability prediction named HyperPhS.
-![image](model.png)
+![image](model.jpg)
 
 ## Setup
 Please install HyperPhS in a virtual environment to ensure it has conflicting dependencies.
