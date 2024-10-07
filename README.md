@@ -39,5 +39,5 @@ $ python train_singleGPU.py --known_class 'True' --checkpoint_dir 'checkpoint' -
 ```
 ## Reference
 
-[1] Li, L. et al. (2022). In Silico Prediction of Human and Rat Liver Microsomal Stability via Machine Learning Methods. Chemical Research in Toxicology 35(9), 1614–1624.
+[1] Li, L. et al. (2022). In Silico Prediction of Human and Rat Liver Microsomal Stability via Machine Learning Methods. Chemical Research in Toxicology 35(9), 1614–1624.\\
 [2] Mendez, David, et al. (2019). ChEMBL: towards direct deposition of bioassay data. Nucleic acids research 47.D1, D930-D940.
