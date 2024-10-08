@@ -26,7 +26,7 @@ Install pytorch_geometric following instruction at https://github.com/rusty1s/py
 
 The HLM, RLM, and External datasets were adopted from [1],[2].
 
-## Access Processed Text Embedding Data
+## Access processed text embedding data
 
 The processed text embedding data is available via Zenodo: https://doi.org/10.5281/zenodo.13901634
 
