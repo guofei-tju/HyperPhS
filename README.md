@@ -24,7 +24,7 @@ Install pytorch_geometric following instruction at https://github.com/rusty1s/py
 ```
 ## Dataset
 
-The HLM, RLM, and External datasets were adopted from [1,2].
+The HLM, RLM, and External datasets were adopted from [1],[2].
 
 ## Run the model
 Firstly, to process the data, you will use the `python create_data.py` script.
