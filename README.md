@@ -19,6 +19,8 @@ pandas == 2.0.2
 numpy == 1.23.5
 RDKit == 2023.03.1
 network == 2.8.4
+tensorflow == 2.13.0
+transformers == 4.44.0
 PyG == 2.3.1
 Install pytorch_geometric following instruction at https://github.com/rusty1s/pytorch_geometric
 ```
@@ -30,10 +32,14 @@ The HLM, RLM, and External datasets were adopted from [1],[2].
 
 The processed text embedding data is available via Zenodo: https://doi.org/10.5281/zenodo.13901634
 
+It is necessary to download this data and place it in the `processed_data` directory before running the model.
+
 ## Run the model
 Firstly, to process the data, you will use the `python create_data.py` script.
 
-Secondly, to train the model, you will use the `python training.py` script. This script accepts several command-line arguments to customize the training process.
+Secondly, to train the model, you will use the `python Training.py` script. This script accepts several command-line arguments to customize the training process.
+
+We also provide a pre-trained model `model.pt`, which you can directly apply in the `Training.py` script and then run the script to make predictions.
 
 ## Reference
 
