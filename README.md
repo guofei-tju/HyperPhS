@@ -30,7 +30,7 @@ The HLM, RLM, and External datasets were adopted from [1],[2].
 
 ## Access processed text embedding data
 
-The processed text embedding data is available via Zenodo: https://doi.org/10.5281/zenodo.13901634
+The processed text embedding data is available via Zenodo: https://doi.org/10.5281/zenodo.13910686
 
 It is necessary to download this data and place it in the `processed_data` directory before running the model.
 
@@ -40,6 +40,8 @@ Firstly, to process the data, you will use the `python create_data.py` script.
 Secondly, to train the model, you will use the `python Training.py` script. This script accepts several command-line arguments to customize the training process.
 
 We also provide a pre-trained model `model.pt`, which you can directly apply in the `Training.py` script and then run the script to make predictions.
+
+The model is also available via Zenodo: https://doi.org/10.5281/zenodo.13910686
 
 ## Reference
 
